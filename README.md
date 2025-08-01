@@ -9,6 +9,14 @@
 
 The project also includes data cleaning, handling missing values, and potentially building predictive models (e.g., to estimate revenue or popularity) using machine learning techniques.
 
+## 🧩 Features
+- **Time series model** - The model evaluates Profit Trend of the movies over the years and forecasts future trends for a given period of time.
+- **Genre Prediction Model** - Classification model that takes the overview of a movie as input from the user and predicts the genre of the movie.
+- **Revenue Prediction Model**- Regression Model that takes the budget, vote count and genre of a particular movie as input from the user and predicts estimated revenue from it.  
+- **Rating prediction Model** - Classification Model that predicts rating category of a movie as "GOOD", "AVERAGE", "POOR" by taking vote average (within a range) as user input.
+- **Cluster Model** - The model segments movies based on popularity and revenue into three groups i.e. "Low popularity & revenue","Moderate popularity & revenue","High popularity & revenue".
+
+
 ## 🧰 Tools & Technologies Used
 
 - **Excel** – Utilized for preliminary data exploration
